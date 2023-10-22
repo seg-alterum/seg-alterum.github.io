@@ -1,0 +1,35 @@
+Overall Look and Feel of Alterum
+================================
+
+The overall look and feel should be minimalistic with futuristic elements. 
+Alterum's concept involves space, futurism, and technology aspects.
+The website should be simple and clear to navigate but provide an immersive experience. 
+
+Colours
+=======
+For Alterum, colours expose our personality to the customers.
+Our colours are based off of dark futuristic and cyberpunk elements.
+These are our colour swatches:
+
+- #29132E
+- #46025D
+- #871BAD
+- #3940D8
+- #5271FF
+- #FFFFFF
+
+Iconography
+===========
+We will focus on using coloured or outlined icons that adhere to our overall theme.
+
+Typography
+==========
+We will be using Helvetica from Google Fonts.
+
+Links
+=====
+Links will not be underlined and should change colour when a user hovers over it.
+
+Buttons
+=======
+Buttons will be designed using the colours outlined above. 
