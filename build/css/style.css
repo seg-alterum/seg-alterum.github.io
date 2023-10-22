@@ -540,6 +540,10 @@ video {
   position: fixed;
 }
 
+.absolute{
+  position: absolute;
+}
+
 .mx-\[5\%\]{
   margin-left: 5%;
   margin-right: 5%;
@@ -561,20 +565,8 @@ video {
   max-height: 117px;
 }
 
-.min-h-\[117px\]{
-  min-height: 117px;
-}
-
-.w-auto{
-  width: auto;
-}
-
 .min-w-\[108px\]{
   min-width: 108px;
-}
-
-.flex-shrink-0{
-  flex-shrink: 0;
 }
 
 .flex-row{
