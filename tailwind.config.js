@@ -6,7 +6,16 @@ module.exports = {
     './build/**/*.js',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        alterum: {
+          background: "#29132E",
+        }
+      },
+      fontFamily: {
+        alterum: ['Poppins', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
