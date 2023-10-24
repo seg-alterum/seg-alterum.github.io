@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         alterum: {
-          background: "#160a19",
-          backgroundBk: "#0B111b"
+          background: "#221027",
+          backgroundContrast: "#160a19",   
         },
       },
       fontFamily: {
