@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -545,11 +545,6 @@ video {
   margin-right: 5%;
 }
 
-.mx-\[50\%\]{
-  margin-left: 50%;
-  margin-right: 50%;
-}
-
 .-mt-2{
   margin-top: -0.5rem;
 }
@@ -566,24 +561,12 @@ video {
   display: none;
 }
 
-.h-\[107px\]{
-  height: 107px;
-}
-
 .h-\[75px\]{
   height: 75px;
 }
 
-.max-h-\[117px\]{
-  max-height: 117px;
-}
-
 .w-\[40px\]{
   width: 40px;
-}
-
-.flex-row{
-  flex-direction: row;
 }
 
 .items-center{
@@ -594,14 +577,6 @@ video {
   justify-content: space-between;
 }
 
-.gap-6{
-  gap: 1.5rem;
-}
-
-.self-center{
-  align-self: center;
-}
-
 .border{
   border-width: 1px;
 }
@@ -609,11 +584,6 @@ video {
 .bg-alterum-background{
   --tw-bg-opacity: 1;
   background-color: rgb(34 16 39 / var(--tw-bg-opacity));
-}
-
-.bg-alterum-backgroundContrast{
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 10 25 / var(--tw-bg-opacity));
 }
 
 .fill-current{
@@ -644,21 +614,12 @@ video {
   padding-bottom: 1rem;
 }
 
-.pt-\[10px\]{
-  padding-top: 10px;
-}
-
 .text-center{
   text-align: center;
 }
 
 .font-alterum{
   font-family: Poppins, sans-serif;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-lg{
@@ -691,11 +652,6 @@ video {
   transition-duration: 150ms;
 }
 
-.hover\:bg-alterum-background:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 16 39 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-alterum-backgroundContrast:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(22 10 25 / var(--tw-bg-opacity));
@@ -717,11 +673,6 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:my-4{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
   .sm\:flex{
     display: flex;
   }
@@ -750,11 +701,6 @@ video {
   .sm\:bg-alterum-background{
     --tw-bg-opacity: 1;
     background-color: rgb(34 16 39 / var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-alterum-backgroundContrast{
-    --tw-bg-opacity: 1;
-    background-color: rgb(22 10 25 / var(--tw-bg-opacity));
   }
 
   .sm\:py-0{

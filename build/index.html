@@ -9,71 +9,67 @@
     <meta http-equiv="Expires" content="-1" />
     <meta name="author" content="Alterum" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      h1 {
-        color: white;
-        text-align: center;
-        text-transform: capitalize;
-        font-size: 130px;
-        margin-top: 50px;
-        margin-left: -20px;
-      }
-      .explore-button {
-        margin-top: 20px;
-        padding: 10px 20px;
-        background-color: #d3bde4;
-        color: #fff;
-        text-decoration: none;
-        border: none;
-        border-radius: 25px;
-        font-size: 20px;
-        text-transform: uppercase;
-        cursor: pointer;
-        display: block;
-        margin: 0 auto;
-        transition: background-color 0.3s;
-      }
-      .navbar {
-        font-size: 20px;
-        position: fixed;
-        top: 0;
-        right: 0;
-        padding: 10px;
-      }
-      .navbar ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: flex-end;
-      }
-      .navbar li {
-        margin: 0 10px;
-        color: #fff;
-        font-weight: bold;
-      }
-    </style>
   </head>
   <body class="font-alterum bg-alterum-background">
     <section>
-      <nav
-        class="text-white font-alterum font-bold text-center flex justify-between mx-[5%] pt-[10px] max-h-[117px]"
-      >
-        <a href="">
-          <img
-            class="h-[107px]"
-            alt="Alterum Logo"
-            src="images/logo_alterum-cropped.svg"
-          />
-        </a>
-        <ul class="flex flex-row gap-6 text-2xl self-center">
-          <li><a href="">Home</a></li>
-          <li><a href="product.html">Product Description</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="team.html">Team</a></li>
-        </ul>
+      <nav class="sm:flex sm:justify-between">
+        <div class="flex items-center justify-between mx-[5%] py-3">
+          <a href="index.html">
+            <img
+              class="md:h-[107px] h-[75px]"
+              src="images/logo_alterum-cropped.svg"
+              alt="Alterum"
+            />
+          </a>
+          <div class="sm:hidden">
+            <a
+              id="toggle-btn"
+              href="#"
+              class="block text-white hover:text-white focus:text-white focus:outline-none"
+            >
+              <svg class="w-[40px] fill-current" viewBox="0 0 24 24">
+                <path
+                  class="navbarIcon"
+                  fill-rule="evenodd"
+                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                />
+                <path
+                  class="navbarIcon hidden"
+                  fill-rule="evenodd"
+                  d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div
+          id="navbar-links"
+          class="hidden text-lg sm:flex sm:items-center sm:text-xl md:text-2xl text-white -mt-2 px-7 pb-4 sm:pb-0 text-center"
+        >
+          <a
+            class="block sm:flex sm:items-center sm:h-full px-2 py-1 sm:py-0 font-bold hover:bg-alterum-backgroundContrast"
+            href="index.html"
+            >Home</a
+          >
+          <a
+            class="block sm:flex sm:items-center sm:h-full px-2 py-1 sm:py-0 font-bold hover:bg-alterum-backgroundContrast"
+            href="product.html"
+            >Product Description</a
+          >
+          <a
+            class="block sm:bg-alterum-background sm:rounded-t-[50p] sm:flex sm:items-center sm:h-full px-2 py-1 sm:py-0 font-bold hover:bg-alterum-backgroundContrast"
+            href="pricing.html"
+            >Pricing</a
+          >
+          <a
+            class="block sm:flex sm:items-center sm:h-full px-2 py-1 sm:py-0 font-bold hover:bg-alterum-backgroundContrast"
+            href="team.html"
+            >Team</a
+          >
+        </div>
       </nav>
     </section>
+
     <main class="text-white mx-[5%]">
       <article>
         <h1>Alterum</h1>
