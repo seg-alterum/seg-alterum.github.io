@@ -536,10 +536,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.fixed{
-  position: fixed;
-}
-
 .mx-\[5\%\]{
   margin-left: 5%;
   margin-right: 5%;
@@ -577,13 +573,9 @@ video {
   justify-content: space-between;
 }
 
-.border{
-  border-width: 1px;
-}
-
 .bg-alterum-background{
   --tw-bg-opacity: 1;
-  background-color: rgb(34 16 39 / var(--tw-bg-opacity));
+  background-color: rgb(3 19 38 / var(--tw-bg-opacity));
 }
 
 .fill-current{
@@ -631,30 +623,14 @@ video {
   font-weight: 700;
 }
 
-.uppercase{
-  text-transform: uppercase;
-}
-
-.capitalize{
-  text-transform: capitalize;
-}
-
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.transition{
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .hover\:bg-alterum-backgroundContrast:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(22 10 25 / var(--tw-bg-opacity));
+  background-color: rgb(4 178 217 / var(--tw-bg-opacity));
 }
 
 .hover\:text-white:hover{
@@ -700,7 +676,7 @@ video {
 
   .sm\:bg-alterum-background{
     --tw-bg-opacity: 1;
-    background-color: rgb(34 16 39 / var(--tw-bg-opacity));
+    background-color: rgb(3 19 38 / var(--tw-bg-opacity));
   }
 
   .sm\:py-0{
