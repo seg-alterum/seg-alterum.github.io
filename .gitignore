@@ -399,3 +399,7 @@ FodyWeavers.xsd
 
 # Tailwindcss executable
 tailwindcss
+
+# DS_Store File for macOS
+**/.DS_Store
+.DS_Store
