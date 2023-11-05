@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         alterum: {
           background: "#031326",
-          backgroundContrast: "#04B2D9",   
+          backgroundContrast: "#04B2D9",
+          purple1: "#ae34eb",
         },
       },
       fontFamily: {
