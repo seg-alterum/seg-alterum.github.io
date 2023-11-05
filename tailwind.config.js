@@ -17,6 +17,9 @@ module.exports = {
       fontFamily: {
         alterum: ['Poppins', 'sans-serif'],
       },
+      backgroundImage: {
+        'mainpage': "url('../images/mainpage.png')"
+      },
     },
   },
   plugins: [],
