@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <link rel="stylesheet" href="css/style.css" />
@@ -69,17 +69,30 @@
         </div>
       </nav>
     </section>
-
-    <main class="text-white mx-[5%]"></main>
-    <footer></footer>
     <main class="text-white mx-[5%]">
-      <article class="p-[50px]">
+      <noscript class="text-yellow-300">This site requires that javascript is enabled</noscript>
+      <article class="p-[50px] pt-0">
         <div class="main-content">
-          <div class="title">ALTERUM</div>
-          <div class="title">BEYOND REALITY</div>
+          <div
+            class="sm:flex items-center justify-end h-[calc(100vh-99px)] md:h-[calc(100vh-131px)]"
+          >
+            <div class="text-center ml-[100px]">
+              <h1 class="font-extrabold text-[50px]">Alterum</h1>
+              <h1
+                class="font-semibold whitespace-nowrap text-[30px] bg-gradient-to-r from-alterum-purple1 to-alterum-backgroundContrast inline-block text-transparent bg-clip-text"
+              >
+                Beyond Reality
+              </h1>
+            </div>
+            <div
+              class="sm:w-[600px] md:w-[1200px] h-auto grow"
+              id="container3D"
+            ><noscript class="text-yellow-300">This Page requires that javascript is enabled</noscript></div>
+          </div>
+
           <div class="subtitle">
-            FDVR IS NOT JUST A TECHNOLOGICAL ADVANCEMENT; IT'S A LEAP INTO A NEW
-            DIMENSION OF EXPERIENCES
+            FDVR is not just a technological advancement, it's a leap into a new
+            dimension of experiences.
           </div>
           <div class="services">
             <div class="service">
@@ -196,6 +209,6 @@
       </div>
     </footer>
     <script src="js/main.js"></script>
-  
+    <script type="module" src="js/3dModel.js"></script>
   </body>
 </html>
