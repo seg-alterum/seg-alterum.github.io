@@ -1182,4 +1182,10 @@ video {
 #randomheadset{
   float: right;
 }
-
+#storageoptions{
+  border-collapse:collapse
+}
+#storage1, #storage2, #storage3 {
+  border:0.5px solid white;
+  border-radius:300px
+}
