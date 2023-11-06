@@ -1143,3 +1143,11 @@ video {
 .\[\&\>li\]\:mb-\[5px\]>li{
   margin-bottom: 5px;
 }
+
+#dropdowndescription {
+  display: none;
+}
+
+#menu-products:hover #dropdowndescription {
+  display: block;
+}
