@@ -1179,3 +1179,7 @@ video {
 
 .package :hover .included {background-color: #fbfbfc;}
 
+#randomheadset{
+  float: right;
+}
+
