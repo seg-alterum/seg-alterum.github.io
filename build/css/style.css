@@ -1144,10 +1144,37 @@ video {
   margin-bottom: 5px;
 }
 
-#dropdowndescription {
-  display: none;
+.included {
+  background-color: #0b004b;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
 
-#menu-products:hover #dropdowndescription {
+.package {
+  position: relative;
+  display: inline-block;
+}
+
+.package-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.package-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
   display: block;
 }
+
+.package-content a:hover {background-color: #ddd;}
+
+.package:hover .dropdown-content {display: block;}
+
+.package :hover .dropbtn {background-color: #0b004b;}
