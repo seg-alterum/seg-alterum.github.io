@@ -1157,7 +1157,7 @@ video {
   display: inline-block;
 }
 
-.package-content {
+.boxcontent {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -1166,15 +1166,16 @@ video {
   z-index: 1;
 }
 
-.package-content a {
+.boxcontent a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.package-content a:hover {background-color: #ddd;}
+.boxcontent a:hover {background-color: #ddd;}
 
-.package:hover .dropdown-content {display: block;}
+.package:hover .boxcontent {display: block;}
 
-.package :hover .dropbtn {background-color: #0b004b;}
+.package :hover .included {background-color: #fbfbfc;}
+
