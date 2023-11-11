@@ -76,7 +76,6 @@
   object-fit: cover;
 }
 
-
 .container {
   width: 90%;
   max-width: 1100px;
@@ -92,7 +91,6 @@
   align-self: stretch;
 }
 
-
 .product-image {
   width: 100%;
   height: auto;
@@ -100,13 +98,40 @@
   color: white;
 }
 
-.bg-alterum-backgroundGradient {
-  background: linear-gradient(160deg, #355c7d 0%, #6c5b7b 50%, #c06c84 100%);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 #container3D canvas {
   width: 100% !important;
   height: 100% !important;
+}
+nav {
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: white;
+  border-bottom: 2px solid rgb(245, 243, 243);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+nav a {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+body {
+  background: linear-gradient(
+    to bottom left,
+    #800080 10%,
+    #000000 50%,
+    #000000 50%,
+    #800080 90%
+  );
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
 }
