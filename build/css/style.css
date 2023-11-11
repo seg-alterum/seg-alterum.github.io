@@ -558,7 +558,7 @@ video {
 }
 
 .mx-\[50px\]{
-  margin-left: 50px;
+  margin-left: 50px; /* COMMENT FOR ME TO FIND LATER MAXIM*/
   margin-right: 50px;
 }
 
@@ -980,7 +980,7 @@ video {
 .service-icon {
   width: 50px;
   height: 50px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin-bottom: 10px;
 }
 
