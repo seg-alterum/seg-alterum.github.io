@@ -558,7 +558,7 @@ video {
 }
 
 .mx-\[50px\]{
-  margin-left: 50px; /* COMMENT FOR ME TO FIND LATER MAXIM*/
+  margin-left: 50px;
   margin-right: 50px;
 }
 
@@ -1010,7 +1010,7 @@ video {
 .service-icon {
   width: 50px;
   height: 50px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   margin-bottom: 10px;
 }
 
@@ -1027,7 +1027,7 @@ video {
   flex-direction: column;
   max-width: 300px;
   width: 100%;
-  background: rgba(0, 255, 255, 0.75);
+  background: white;
   border-radius: 0.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
@@ -1153,6 +1153,10 @@ body > *:not(.bg-alterum-background::after) {
     height: 107px;
   }
 
+  .md\:h-\[75px\]{
+    height: 75px;
+  }
+
   .md\:h-\[calc\(100vh-131px\)\]{
     height: calc(100vh - 131px);
   }
@@ -1198,6 +1202,11 @@ body > *:not(.bg-alterum-background::after) {
     font-size: 70px;
   }
 
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1224,6 +1233,11 @@ body > *:not(.bg-alterum-background::after) {
 
   .lg\:text-\[60px\]{
     font-size: 60px;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
