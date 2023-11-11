@@ -1027,7 +1027,7 @@ video {
   flex-direction: column;
   max-width: 300px;
   width: 100%;
-  background: #fff;
+  background: rgba(0, 255, 255, 0.75);
   border-radius: 0.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
@@ -1061,29 +1061,43 @@ video {
 }
 
 .font-alterum {
-  font-family: "Open Sans", sans-serif;
-  /* Replace with your font choice */
+  font-family: "San Francisco", "Helvetica Neue", Arial, sans-serif;
 }
 
 .bg-alterum-background {
-  background: linear-gradient(
-    to right bottom,
-    #5b4b8a,
-    #4e4376,
-    #413a65,
-    #343255,
-    #262b44,
-    #1f2747,
-    #181e4a,
-    #12154d,
-    #0d0f52,
-    #090a57,
-    #05055c,
-    #000061
-  );
-  color: #fff;
+  background: linear-gradient(135deg, #0a0f0d 0%, #192550 50%, #4b0058 100%);
+  background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
-  /* Full height */
+  color: #fff;
+}
+
+/* Add a subtle overlay pattern for a refined look */
+
+.bg-alterum-background::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.05) 0,
+    rgba(255, 255, 255, 0.05) 1px,
+    transparent 1px,
+    transparent 50px
+  );
+  z-index: 1;
+  pointer-events: none;
+  /* Allows clicks to pass through */
+}
+
+/* Ensure content is layered above the background overlay */
+
+body > *:not(.bg-alterum-background::after) {
+  position: relative;
+  z-index: 2;
 }
 
 .hover\:bg-alterum-backgroundContrast:hover{
