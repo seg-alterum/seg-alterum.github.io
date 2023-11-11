@@ -759,10 +759,6 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-mainpage{
-  background-image: url('../images/mainpage.png');
-}
-
 .from-alterum-purple1{
   --tw-gradient-from: #ae34eb var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(174 52 235 / 0) var(--tw-gradient-to-position);
@@ -773,21 +769,9 @@ video {
   --tw-gradient-to: #04B2D9 var(--tw-gradient-to-position);
 }
 
-.bg-cover{
-  background-size: cover;
-}
-
 .bg-clip-text{
   -webkit-background-clip: text;
           background-clip: text;
-}
-
-.bg-center{
-  background-position: center;
-}
-
-.bg-no-repeat{
-  background-repeat: no-repeat;
 }
 
 .fill-current{
@@ -933,6 +917,11 @@ video {
   color: rgb(253 224 71 / var(--tw-text-opacity));
 }
 
+.text-yellow-800{
+  --tw-text-opacity: 1;
+  color: rgb(133 77 14 / var(--tw-text-opacity));
+}
+
 .no-underline{
   text-decoration-line: none;
 }
@@ -954,42 +943,17 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.backdrop-blur-\[1px\]{
-  --tw-backdrop-blur: blur(1px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
-.backdrop-brightness-50{
-  --tw-backdrop-brightness: brightness(.5);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
 .duration-300{
   transition-duration: 300ms;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-  background-color: #f7f7f7;
-  color: #333;
-  line-height: 1.6;
-  font-size: 16px;
-}
-
 .main-content {
-  padding: 50px;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  padding: 50px;
+  padding-top: 0;
 }
 
 .text-shadow-alterum {
@@ -1056,18 +1020,7 @@ body {
      object-fit: cover;
 }
 
-h2 {
-  font-size: 1.75rem;
-  color: #5e42a6;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  color: #555;
-  margin-bottom: 1rem;
-}
-
-.bg-alterum-background {
+.bg-alterum-backgroundGradient {
   background: linear-gradient(145deg, #355c7d 0%, #6c5b7b 50%, #c06c84 100%);
   background-size: cover;
   background-attachment: fixed;
@@ -1080,6 +1033,11 @@ p {
 .product-display {
   position: relative;
   z-index: 2;
+}
+
+#container3D canvas {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .hover\:bg-alterum-backgroundContrast:hover{
@@ -1135,10 +1093,6 @@ p {
     height: 107px;
   }
 
-  .md\:h-\[75px\]{
-    height: 75px;
-  }
-
   .md\:h-\[calc\(100vh-131px\)\]{
     height: calc(100vh - 131px);
   }
@@ -1184,11 +1138,6 @@ p {
     font-size: 70px;
   }
 
-  .md\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1215,11 +1164,6 @@ p {
 
   .lg\:text-\[60px\]{
     font-size: 60px;
-  }
-
-  .lg\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 }
 

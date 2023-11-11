@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -6,30 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alterum | Product</title>
   </head>
-  <style>
-      body {
-            margin: 0;
-            padding: 0;
-        }
-
-        #blueBar {
-            background-color: rgb(0, 0, 0);
-            height: 90px; /* Adjust the height as needed */
-            width: 100%;
-            position: absolute;
-            z-index: -1;
-            opacity: 0.7;
-
-        }
-  </style>
-  <body class="font-alterum bg-alterum-background">
-    <div id="blueBar"></div>
+  <body class="font-alterum bg-alterum-backgroundGradient">
     <section class="mx-[5%]">
       <nav class="md:flex md:justify-between select-none">
         <div class="flex items-center justify-between mx-[5%] py-3">
           <a href="index.html">
             <img
-              class="md:h-[75px] h-[75px]"
+              class="md:h-[107px] h-[75px]"
               src="images/logo_alterum-cropped.svg"
               alt="Alterum"
             />
@@ -57,7 +40,7 @@
         </div>
         <div
           id="navbar-links"
-          class="hidden text-lg md:flex md:items-center md:text-lg lg:text-lg text-white -mt-2 px-25 pb-4 md:pb-0 text-center"
+          class="hidden text-lg md:flex md:items-center md:text-xl lg:text-2xl text-white -mt-2 px-7 pb-4 md:pb-0 text-center"
         >
           <a
             class="block md:flex md:items-center md:h-full px-2 py-1 md:py-0 font-bold hover:bg-alterum-backgroundContrast"
@@ -65,7 +48,7 @@
             >Home</a
           >
           <a
-            class="block md:flex md:items-center md:h-full px py-1 md:py-0 font-bold hover:bg-alterum-backgroundContrast"
+            class="block md:flex md:items-center md:h-full px-2 py-1 md:py-0 font-bold hover:bg-alterum-backgroundContrast"
             href="product.html"
             >Product Description</a
           >
@@ -81,6 +64,11 @@
           >
         </div>
       </nav>
+    </section>
+    <main class="text-white mx-[5%]">
+      <noscript class="text-yellow-300"
+        >This site requires that javascript is enabled</noscript
+      >
       <main class="text-white mx-auto py-10">
         <section
           class="product-display flex flex-col md:flex-row justify-center items-center md:items-start gap-10"
@@ -130,11 +118,6 @@
           </div>
         </section>
       </main>
-    </section>
-    <main class="text-white mx-[5%]">
-      <noscript class="text-yellow-300"
-        >This site requires that javascript is enabled</noscript
-      >
     </main>
     <footer
       class="mt-[100px] relative w-full h-[615px] text-white bg-alterum-backgroundContrast flex flex-col select-none"
@@ -230,6 +213,5 @@
       </div>
     </footer>
     <script src="js/main.js"></script>
-    
   </body>
 </html>

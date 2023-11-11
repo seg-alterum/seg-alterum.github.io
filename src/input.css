@@ -4,26 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
-  background-color: #f7f7f7;
-  color: #333;
-  line-height: 1.6;
-  font-size: 16px;
-}
 
 .main-content {
-  padding: 50px;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  padding: 50px;
+  padding-top: 0;
 }
 
 .text-shadow-alterum {
@@ -89,18 +77,7 @@ body {
   object-fit: cover;
 }
 
-h2 {
-  font-size: 1.75rem;
-  color: #5e42a6;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  color: #555;
-  margin-bottom: 1rem;
-}
-
-.bg-alterum-background {
+.bg-alterum-backgroundGradient {
   background: linear-gradient(145deg, #355c7d 0%, #6c5b7b 50%, #c06c84 100%);
   background-size: cover;
   background-attachment: fixed;
@@ -113,4 +90,9 @@ p {
 .product-display {
   position: relative;
   z-index: 2;
+}
+
+#container3D canvas {
+  width: 100% !important;
+  height: 100% !important;
 }
