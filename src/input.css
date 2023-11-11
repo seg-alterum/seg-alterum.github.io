@@ -59,7 +59,7 @@
   flex-direction: column;
   max-width: 300px;
   width: 100%;
-  background: rgba(0, 255, 255, 0.75);
+  background: white;
   border-radius: 0.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
