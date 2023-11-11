@@ -632,10 +632,6 @@ video {
   height: auto;
 }
 
-.min-h-\[100vh\]{
-  min-height: 100vh;
-}
-
 .w-\[40px\]{
   width: 40px;
 }
@@ -742,6 +738,11 @@ video {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.bg-alterum-background{
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 19 38 / var(--tw-bg-opacity));
 }
 
 .bg-alterum-backgroundContrast{
@@ -991,7 +992,7 @@ video {
   padding: 2rem;
 }
 
-.product-display div{
+.product-display div {
   width: 100%;
 }
 
@@ -1014,24 +1015,115 @@ video {
      object-fit: cover;
 }
 
-.bg-alterum-backgroundGradient {
-  background: linear-gradient(145deg, #355c7d 0%, #6c5b7b 50%, #c06c84 100%);
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 100vh;
+body,
+h1,
+h2,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: radial-gradient(
+    1224px at 10.6% 8.8%,
+    rgb(255, 255, 255) 0%,
+    rgb(153, 202, 251) 100.2%
+  );
   color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
-.main-content,
-.services,
-.product-display {
+nav {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  height: 50px;
+  /display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #c0c0c0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+}
+
+.product-card {
+  background-color: rgba(212, 72, 72, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #181818;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 20px 0;
   position: relative;
-  z-index: 2;
+  bottom: 0;
+  width: 100%;
 }
 
-#container3D canvas {
-  width: 100% !important;
-  height: 100% !important;
+footer p,
+footer a {
+  color: #f0f0f0;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  color: white;
+}
+
+h1,
+h2 {
+  margin-bottom: 0.75rem;
+  color: white;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.index-page {
+  background-image: url("images/SampleBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav img {
+  filter: invert(0) grayscale(1) brightness(0);
+  /* Only works if your logo is white */
 }
 
 .hover\:bg-alterum-backgroundContrast:hover{
@@ -1087,6 +1179,10 @@ video {
     height: 107px;
   }
 
+  .md\:h-\[75px\]{
+    height: 75px;
+  }
+
   .md\:h-\[calc\(100vh-131px\)\]{
     height: calc(100vh - 131px);
   }
@@ -1097,6 +1193,14 @@ video {
 
   .md\:w-\[1200px\]{
     width: 1200px;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:items-start{
+    align-items: flex-start;
   }
 
   .md\:items-center{
@@ -1122,6 +1226,11 @@ video {
 
   .md\:text-\[70px\]{
     font-size: 70px;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .md\:text-xl{
@@ -1150,6 +1259,11 @@ video {
 
   .lg\:text-\[60px\]{
     font-size: 60px;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
