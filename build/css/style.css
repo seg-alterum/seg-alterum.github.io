@@ -1321,16 +1321,3 @@ video {
   height: 100px; 
   margin-left: 20px; 
 }
-
-/* Update */
-
-.member {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px; 
-}
-
-.text-container {
-  color: white;
-  font-family: 'Helvetica', sans-serif;
-}
