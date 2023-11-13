@@ -1237,3 +1237,9 @@ video {
   margin-bottom: 15px;
   border-radius: 50%;
 }
+
+.team-title {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
