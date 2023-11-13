@@ -8,12 +8,13 @@ const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerH
 let object;
 let controls;
 
+// Change objToRender to the file name where scene.gltf is located
 let objToRender = 'head';
 
 const loader = new GLTFLoader();
 
 loader.load(
-  `../models/${objToRender}/scene.gltf`,
+  `./models/${objToRender}/scene.gltf`,
   function (gltf) {
     object = gltf.scene;
     scene.add(object);

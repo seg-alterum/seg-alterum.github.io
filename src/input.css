@@ -13,8 +13,8 @@
   padding-top: 0;
 }
 
-.text-shadow-alterum{
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+.text-shadow-alterum {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .services {
@@ -22,28 +22,88 @@
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.75);
+  margin-top: 1rem;
 }
+
 .service {
-  background-color: rgb(10, 25, 47);
+  background-color: #ffffff;
   padding: 20px;
-  flex: 1;
-  height: 200px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(0, 255, 255, 0.5);
-  color: #00ffff;
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.75);
+  flex-basis: calc(33.333% - 40px);
+  margin: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  color: #333;
 }
+
+.service:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
 .service-icon {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #f7f7f7;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.product-display {
+  padding: 2rem;
+}
+
+.product-display div {
+  width: 100%;
+}
+
+.product-card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  object-fit: cover;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+}
+
+.product-card {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  align-self: stretch;
+}
+
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  color: white;
+}
+
+.bg-alterum-backgroundGradient {
+  background: linear-gradient(160deg, #355c7d 0%, #6c5b7b 50%, #c06c84 100%);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #container3D canvas {

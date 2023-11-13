@@ -575,6 +575,10 @@ video {
   margin-top: -80px;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
 .mt-\[100px\]{
   margin-top: 100px;
 }
@@ -589,6 +593,10 @@ video {
 
 .flex{
   display: flex;
+}
+
+.table{
+  display: table;
 }
 
 .hidden{
@@ -681,6 +689,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-10{
+  gap: 2.5rem;
+}
+
 .gap-\[40px\]{
   gap: 40px;
 }
@@ -695,6 +707,10 @@ video {
 
 .whitespace-nowrap{
   white-space: nowrap;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
 }
 
 .border-x-0{
@@ -738,10 +754,6 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
-.bg-mainpage{
-  background-image: url('../images/mainpage.png');
-}
-
 .from-alterum-purple1{
   --tw-gradient-from: #ae34eb var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(174 52 235 / 0) var(--tw-gradient-to-position);
@@ -752,25 +764,17 @@ video {
   --tw-gradient-to: #04B2D9 var(--tw-gradient-to-position);
 }
 
-.bg-cover{
-  background-size: cover;
-}
-
 .bg-clip-text{
   -webkit-background-clip: text;
           background-clip: text;
 }
 
-.bg-center{
-  background-position: center;
-}
-
-.bg-no-repeat{
-  background-repeat: no-repeat;
-}
-
 .fill-current{
   fill: currentColor;
+}
+
+.p-6{
+  padding: 1.5rem;
 }
 
 .p-\[50px\]{
@@ -851,6 +855,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-\[15px\]{
   font-weight: 15px;
 }
@@ -879,6 +888,11 @@ video {
   line-height: 1.3;
 }
 
+.text-gray-800{
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
 .text-transparent{
   color: transparent;
 }
@@ -897,43 +911,21 @@ video {
   text-decoration-line: none;
 }
 
+.shadow-lg{
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .shadow-none{
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.brightness-150{
-  --tw-brightness: brightness(1.5);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .brightness-125{
   --tw-brightness: brightness(1.25);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.brightness-100{
-  --tw-brightness: brightness(1);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.backdrop-blur-\[1px\]{
-  --tw-backdrop-blur: blur(1px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
-.backdrop-brightness-75{
-  --tw-backdrop-brightness: brightness(.75);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
-.backdrop-brightness-50{
-  --tw-backdrop-brightness: brightness(.5);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .duration-300{
@@ -949,8 +941,8 @@ video {
   padding-top: 0;
 }
 
-.text-shadow-alterum{
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+.text-shadow-alterum {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .services {
@@ -958,30 +950,87 @@ video {
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.75);
+  margin-top: 1rem;
 }
 
 .service {
-  background-color: rgb(10, 25, 47);
+  background-color: #ffffff;
   padding: 20px;
-  flex: 1;
-  height: 200px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(0, 255, 255, 0.5);
-  color: #00ffff;
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.75);
+  flex-basis: calc(33.333% - 40px);
+  margin: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  color: #333;
+}
+
+.service:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .service-icon {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #f7f7f7;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.product-display {
+  padding: 2rem;
+}
+
+.product-display div {
+  width: 100%;
+}
+
+.product-card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+}
+
+.product-card {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  align-self: stretch;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  color: white;
+}
+
+.bg-alterum-backgroundGradient {
+  background: linear-gradient(160deg, #355c7d 0%, #6c5b7b 50%, #c06c84 100%);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #container3D canvas {
@@ -1052,6 +1101,14 @@ video {
 
   .md\:w-\[1200px\]{
     width: 1200px;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:items-start{
+    align-items: flex-start;
   }
 
   .md\:items-center{
@@ -1142,50 +1199,4 @@ video {
 
 .\[\&\>li\]\:mb-\[5px\]>li{
   margin-bottom: 5px;
-}
-
-.included {
-  background-color: #0b004b;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.package {
-  position: relative;
-  display: inline-block;
-}
-
-.boxcontent {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 260px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.boxcontent a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.boxcontent a:hover {background-color: #ddd;}
-
-.package:hover .boxcontent {display: block;}
-
-.package :hover .included {background-color: #fbfbfc;}
-
-#randomheadset{
-  float: right;
-}
-#storageoptions{
-  border-collapse:collapse
-}
-#storage1, #storage2, #storage3 {
-  border:0.5px solid white;
-  border-radius:300px
 }
