@@ -1243,7 +1243,7 @@ video {
     font-weight: 800;
     padding: 20px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 0;
     font-family: 'Helvetica', sans-serif;
     font-size: 40px;
@@ -1257,7 +1257,7 @@ video {
   margin: 0;
   padding: 0;
   font-family: 'Helvetica', sans-serif;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .member-name-even {
