@@ -8,8 +8,9 @@ const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerH
 let object;
 let controls;
 
+
 // Change objToRender to the file name where scene.gltf is located
-let objToRender = 'head';
+let objToRender = 'vrHeadset';
 
 const loader = new GLTFLoader();
 
@@ -17,6 +18,9 @@ loader.load(
   `./models/${objToRender}/scene.gltf`,
   function (gltf) {
     object = gltf.scene;
+    object.rotation.x = 0;
+    object.rotation.y = 1;
+    object.rotation.z = 0.2;
     scene.add(object);
   },
   function (xhr) {
@@ -47,8 +51,9 @@ scene.add(lightHolder);
 controls = new OrbitControls(camera, renderer.domElement);
 controls.enablePan = false;
 controls.enableZoom = false;
-controls.maxPolarAngle = Math.PI/2;
-controls.minPolarAngle = Math.PI/2;
+let angle = 1.35;
+controls.maxPolarAngle = angle;
+controls.minPolarAngle = angle;
 
 function animate() {
   requestAnimationFrame(animate);
