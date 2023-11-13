@@ -1267,5 +1267,25 @@ video {
   margin: 0;
   padding: 0;
   font-family: 'Helvetica', sans-serif;
-  font-size: 36px;
+  font-size: 30px;
+}
+
+.member-description-odd{
+  text-align: left;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+}
+
+.member-description-even{
+  text-align: right;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
 }
