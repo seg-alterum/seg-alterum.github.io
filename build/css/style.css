@@ -1250,14 +1250,6 @@ video {
 
 }
 
-.member-odd{ /* updated */
-  text-align: left;
-  color: white;
-  margin: 0;
-  padding: 0;
-  font-family: 'Helvetica', sans-serif;
-}
-
 .member-name-odd {
   text-align: left;
   font-weight: 500;
@@ -1319,15 +1311,15 @@ video {
 }
 
 .member-image-odd {
-  width: 50px; 
-  height: 50px; 
-  margin-right: 10px; 
+  width: 100px; 
+  height: 100px; 
+  margin-right: 20px; 
 }
 
 .member-image-even {
-  width: 50px; 
-  height: 50px; 
-  margin-left: 10px; 
+  width: 100px; 
+  height: 100px; 
+  margin-left: 20px; 
 }
 
 /* Update */
@@ -1335,7 +1327,7 @@ video {
 .member {
   display: flex;
   align-items: center;
-  margin-bottom: 20px; /* Add spacing between member sections */
+  margin-bottom: 20px; 
 }
 
 .text-container {
