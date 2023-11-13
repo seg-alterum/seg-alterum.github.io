@@ -1250,6 +1250,14 @@ video {
 
 }
 
+.member-odd{ /* updated */
+  text-align: left;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+}
+
 .member-name-odd {
   text-align: left;
   font-weight: 500;
@@ -1308,4 +1316,29 @@ video {
   padding: 0;
   font-family: 'Helvetica', sans-serif;
   font-size: 15px;
+}
+
+.member-image-odd {
+  width: 50px; 
+  height: 50px; 
+  margin-right: 10px; 
+}
+
+.member-image-even {
+  width: 50px; 
+  height: 50px; 
+  margin-left: 10px; 
+}
+
+/* Update */
+
+.member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Add spacing between member sections */
+}
+
+.text-container {
+  color: white;
+  font-family: 'Helvetica', sans-serif;
 }
