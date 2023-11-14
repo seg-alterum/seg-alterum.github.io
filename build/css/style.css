@@ -1314,9 +1314,9 @@ video {
 }
 
 .container {
-  display: grid;
+  display: flex;
   align-items: left;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: left
 
  }
 
