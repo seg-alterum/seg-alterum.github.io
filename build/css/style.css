@@ -1285,6 +1285,7 @@ video {
   display: flex;
   align-items: left;
   justify-content: left;
+  margin-bottom: 30px;
 
  }
 
@@ -1292,10 +1293,6 @@ video {
   display: flex;
   align-items: right;
   justify-content: right;
-
- }
-
- .teampage_text {
-  font-weight: 350;
-  color: white;
+  margin-bottom: 30px;
+  
  }
