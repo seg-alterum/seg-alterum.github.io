@@ -1248,20 +1248,20 @@ video {
 }
 
 .member-name {
-  font-weight: 500;
+  font-weight: 600;
   color: white;
   font-family: 'Helvetica', sans-serif;
   font-size: 30px;
 }
 
-.member-title{
+.member-title {
   font-weight: 400;
   color: white;
   font-family: 'Helvetica', sans-serif;
   font-size: 20px;
 }
 
-.member-description{
+.member-description {
   font-weight: 300;
   color: white;
   font-family: 'Helvetica', sans-serif;
@@ -1278,7 +1278,7 @@ video {
 .member-image-right {
   width: 200px; 
   height: 200px; 
-  margin-left: 20px; 
+  /*margin-left: 20px; */
 }
 
 .left-container {
@@ -1301,5 +1301,4 @@ video {
 
  .right-text {
   text-align: right;
-  margin-right: 20;
  }
