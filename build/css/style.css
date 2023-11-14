@@ -1315,6 +1315,8 @@ video {
 .container {
   display: grid;
   align-items: left;
+  column-gap: 5px;
+
  }
 
  .teampage_text {
