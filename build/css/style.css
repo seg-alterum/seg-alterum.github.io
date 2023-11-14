@@ -1244,7 +1244,7 @@ video {
     color: white;
     margin-bottom: 40px;
     font-family: 'Helvetica', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .member-name {
@@ -1294,5 +1294,5 @@ video {
   align-items: right;
   justify-content: right;
   margin-bottom: 30px;
-  
+
  }
