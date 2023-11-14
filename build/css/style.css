@@ -1286,7 +1286,7 @@ video {
   align-items: left;
   justify-content: left;
   margin-bottom: 45px;
-  margin-left: 80px;
+  margin-left: 100px;
 
  }
 
@@ -1295,6 +1295,10 @@ video {
   align-items: right;
   justify-content: right;
   margin-bottom: 45px;
-  margin-right: 80px;
+  margin-right: 100px;
 
+ }
+
+ .right-text {
+  text-align: right;
  }
