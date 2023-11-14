@@ -1276,15 +1276,22 @@ video {
 }
 
 .member-image-right {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   margin-left: 20px; 
 }
 
-.container {
+.left-container {
   display: flex;
   align-items: left;
-  justify-content: left
+  justify-content: left;
+
+ }
+
+ .right-container {
+  display: flex;
+  align-items: right;
+  justify-content: right;
 
  }
 
