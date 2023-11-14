@@ -1241,10 +1241,8 @@ video {
 .team-title {
     text-align: center;
     font-weight: 800;
-    padding: 20px;
     color: white;
     margin-bottom: 40px;
-    padding: 0;
     font-family: 'Helvetica', sans-serif;
     font-size: 40px;
 }
@@ -1270,14 +1268,14 @@ video {
   font-size: 15px;
 }
 
-.member-image-odd {
+.member-image-left {
   width: 200px; 
   height: 200px; 
   margin-right: 20px; 
 
 }
 
-.member-image-even {
+.member-image-right {
   width: 100px; 
   height: 100px; 
   margin-left: 20px; 
