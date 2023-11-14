@@ -1249,53 +1249,23 @@ video {
     font-size: 40px;
 }
 
-.member-name-odd {
+.member-name {
   font-weight: 500;
   color: white;
   font-family: 'Helvetica', sans-serif;
   font-size: 30px;
 }
 
-.member-name-even {
-  text-align: right;
-  font-weight: 500;
-  color: white;
-  margin: 0;
-  padding: 0;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 30px;
-}
-
-.member-title-odd{
+.member-title{
   font-weight: 400;
   color: white;
   font-family: 'Helvetica', sans-serif;
   font-size: 20px;
 }
 
-.member-title-even{
-  text-align: right;
-  font-weight: 400;
-  color: white;
-  margin: 0;
-  padding: 0;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 20px;
-}
-
-.member-description-odd{
+.member-description{
   font-weight: 300;
   color: white;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 15px;
-}
-
-.member-description-even{
-  text-align: right;
-  font-weight: 350;
-  color: white;
-  margin: 0;
-  padding: 0;
   font-family: 'Helvetica', sans-serif;
   font-size: 15px;
 }
