@@ -1285,8 +1285,8 @@ video {
   display: flex;
   align-items: left;
   justify-content: left;
-  margin-bottom: 30px;
-  margin-left: 50px;
+  margin-bottom: 45px;
+  margin-left: 80px;
 
  }
 
@@ -1294,7 +1294,7 @@ video {
   display: flex;
   align-items: right;
   justify-content: right;
-  margin-bottom: 30px;
-  margin-right: 50px;
+  margin-bottom: 45px;
+  margin-right: 80px;
 
  }
