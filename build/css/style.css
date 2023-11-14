@@ -1318,3 +1318,8 @@ video {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 5px;
  }
+
+ .teampage_text {
+  font-weight: 350;
+  color: white;
+ }
