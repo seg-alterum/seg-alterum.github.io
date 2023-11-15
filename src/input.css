@@ -113,8 +113,6 @@
   );
 }
 
-<<<<<<< HEAD
-=======
 .Storageoptions {
   display: flex;
   gap: 20px;
@@ -140,7 +138,6 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
->>>>>>> daaf4459570e959fe8b7a3f597f8ca4f14d27ea8
 .storage-icon {
   width: 60px;
   height: 60px;
