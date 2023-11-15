@@ -595,10 +595,6 @@ video {
   display: flex;
 }
 
-.table{
-  display: table;
-}
-
 .hidden{
   display: none;
 }
@@ -677,6 +673,10 @@ video {
   align-items: baseline;
 }
 
+.items-stretch{
+  align-items: stretch;
+}
+
 .justify-end{
   justify-content: flex-end;
 }
@@ -699,6 +699,10 @@ video {
 
 .gap-\[50px\]{
   gap: 50px;
+}
+
+.gap-9{
+  gap: 2.25rem;
 }
 
 .overflow-x-hidden{
@@ -1042,6 +1046,114 @@ video {
   );
 }
 
+<<<<<<< HEAD
+=======
+.Storageoptions {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.storage {
+  background-color: #ffffff;
+  padding: 20px;
+  flex-basis: calc(33.333% - 40px);
+  margin: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  color: #333;
+}
+
+.storage:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+>>>>>>> daaf4459570e959fe8b7a3f597f8ca4f14d27ea8
+.storage-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #f7f7f7;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.team-title {
+  text-align: center;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 60px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 60px;
+}
+
+.member-name {
+  font-weight: 600;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 30px;
+}
+
+.member-title {
+  font-weight: 400;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+}
+
+.member-description {
+  font-weight: 300;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 15px;
+}
+
+.member-image-left {
+  width: auto;
+  max-height: 500px;
+  min-width: 200px;
+  max-width: 500px;
+}
+
+.member-image-right {
+  width: auto;
+  max-height: 500px;
+  min-width: 200px;
+  max-width: 500px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+}
+
+.left-container img{
+  flex-grow: 1;
+}
+
+.right-container img{
+  flex-grow: 1;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap :40px;
+}
+
+.right-text {
+  text-align: right;
+}
+
 .hover\:bg-alterum-backgroundContrast:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(4 178 217 / var(--tw-bg-opacity));
@@ -1204,101 +1316,3 @@ video {
 .\[\&\>li\]\:mb-\[5px\]>li{
   margin-bottom: 5px;
 }
-
-.Storageoptions {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
-.storage {
-  background-color: #ffffff;
-  padding: 20px;
-  flex-basis: calc(33.333% - 40px);
-  margin: 10px;
-  border: 1px solid #e6e6e6;
-  border-radius: 4px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
-  color: #333;
-}
-
-.storage:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.storage-icon {
-  width: 60px;
-  height: 60px;
-  background-color: #f7f7f7;
-  margin-bottom: 15px;
-  border-radius: 50%;
-}
-
-.team-title {
-    text-align: center;
-    font-weight: 800;
-    color: white;
-    margin-bottom: 60px;
-    font-family: 'Helvetica', sans-serif;
-    font-size: 60px;
-}
-
-.member-name {
-  font-weight: 600;
-  color: white;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 30px;
-}
-
-.member-title {
-  font-weight: 400;
-  color: white;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 20px;
-}
-
-.member-description {
-  font-weight: 300;
-  color: white;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 15px;
-}
-
-.member-image-left {
-  width: 200px; 
-  height: 200px; 
-  margin-right: 20px; 
-
-}
-
-.member-image-right {
-  width: 200px; 
-  height: 200px; 
-  margin-left: 10px;
-}
-
-.left-container {
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  margin-bottom: 40px;
-  margin-left: 140px;
-
- }
-
- .right-container {
-  display: flex;
-  align-items: right;
-  justify-content: right;
-  margin-bottom: 40px;
-  margin-right: 140px;
-
- }
-
- .right-text {
-  text-align: right;
- }
