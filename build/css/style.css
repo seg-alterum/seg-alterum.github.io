@@ -693,10 +693,6 @@ video {
   gap: 2.5rem;
 }
 
-.gap-6{
-  gap: 1.5rem;
-}
-
 .gap-\[40px\]{
   gap: 40px;
 }
@@ -1050,6 +1046,34 @@ video {
   );
 }
 
+<<<<<<< HEAD
+=======
+.Storageoptions {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.storage {
+  background-color: #ffffff;
+  padding: 20px;
+  flex-basis: calc(33.333% - 40px);
+  margin: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  color: #333;
+}
+
+.storage:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+>>>>>>> daaf4459570e959fe8b7a3f597f8ca4f14d27ea8
 .storage-icon {
   width: 60px;
   height: 60px;
