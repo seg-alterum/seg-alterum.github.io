@@ -38,8 +38,8 @@ document.getElementById("container3D").appendChild(renderer.domElement);
 
 camera.position.z = 4;
 
-const ambient = new THREE.HemisphereLight( 0xae34eb, 0x04B2D9, 0.7 );
-const light = new THREE.DirectionalLight(0xffffff, 1);
+const ambient = new THREE.HemisphereLight( 0xae34eb, 0x04B2D9, 0.9 );
+const light = new THREE.DirectionalLight(0xffffff, 0.8);
 ambient.position.set(-3,0,-1)
 light.position.set( 100, 0, 100 );
 
