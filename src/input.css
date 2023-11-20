@@ -103,7 +103,7 @@
   height: 100% !important;
 }
 
-.bg-alterum-backgroundGradient{
+.bg-alterum-backgroundGradient {
   background: linear-gradient(
     to bottom left,
     #800080 10%,
@@ -147,32 +147,32 @@
 }
 
 .team-title {
-    text-align: center;
-    font-weight: 800;
-    color: white;
-    margin-bottom: 60px;
-    font-family: 'Helvetica', sans-serif;
-    font-size: 60px;
+  text-align: center;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 60px;
+  font-family: "Helvetica", sans-serif;
+  font-size: 60px;
 }
 
 .member-name {
   font-weight: 600;
   color: white;
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 30px;
 }
 
 .member-title {
   font-weight: 400;
   color: white;
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 20px;
 }
 
 .member-description {
   font-weight: 300;
   color: white;
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 15px;
 }
 
@@ -183,7 +183,7 @@
   max-width: 500px;
 }
 
-.member-image-right { 
+.member-image-right {
   width: auto;
   max-height: 500px;
   min-width: 200px;
@@ -196,24 +196,72 @@
   align-items: center;
   justify-content: start;
   gap: 40px;
- }
- 
- .left-container img{
-  flex-grow: 1;
- }
+}
 
- .right-container img{
+.left-container img {
   flex-grow: 1;
- }
+}
 
- .right-container {
+.right-container img {
+  flex-grow: 1;
+}
+
+.right-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: end;
-  gap :40px;
- }
+  gap: 40px;
+}
 
- .right-text {
+.right-text {
   text-align: right;
- }
+}
+.table-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-card {
+  margin-bottom: auto;
+  align-self: flex-start;
+}
+
+.table-container {
+  align-self: flex-end;
+}
+.product-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.product-card {
+  width: 50%;
+  align-self: flex-end;
+}
+
+.table-container {
+  width: 50%;
+  align-self: flex-end;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
