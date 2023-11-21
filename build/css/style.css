@@ -1192,7 +1192,7 @@ video {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  height: auto;
   padding: 2rem;
 }
 
@@ -1206,20 +1206,11 @@ video {
   align-self: flex-end;
 }
 
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-image: url("");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 .p1 {
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
+  width: 100%;
 }
 
 .hover\:bg-alterum-backgroundContrast:hover{
