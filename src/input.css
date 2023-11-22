@@ -42,13 +42,7 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.service-icon {
-  width: 60px;
-  height: 60px;
-  background-color: #f7f7f7;
-  margin-bottom: 15px;
-  border-radius: 50%;
-}
+
 
 .product-display {
   padding: 2rem;
