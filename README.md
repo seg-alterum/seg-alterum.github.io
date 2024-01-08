@@ -10,4 +10,6 @@ Team members:
     <li>Savini Welihinda, 300351565</li>
 </ul>
 Product Name : Alterum <br>
-Product Description: An advanced technological headset that connects with the users brain, immersing the user in a virtual world seamlessly indistinguishable from the physical world using brain computer interface (BCI) technology, which allow the user to have control over the virtual world using thoughs. </p>
+Product Description: An advanced technological headset that connects with the users brain, immersing the user in a virtual world seamlessly indistinguishable from the physical world using brain computer interface (BCI) technology, which allow the user to have control over the virtual world using thoughs. <br>
+Website: https://seg-alterum.github.io/
+</p>
